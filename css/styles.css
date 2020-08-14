@@ -1,0 +1,427 @@
+/**ESTILOS GLOBALES**/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/**PORTADA HEADER**/
+
+.portada {
+    height: 100vh;
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.portada-paginas {
+    height: 400px;
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+/**NAVEGACIÓN HEADER**/
+
+.nav-link {
+    color: #ffffff!important;
+}
+
+.nav-link:hover {
+    color: #000000!important;
+}
+
+.inst-name p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.btn-warning {
+    background-color: #e617a8;
+    border-color: #b1027c;
+    color: #ffffff;
+}
+
+.btn-warning:hover {
+    background-color: #b91889;
+    border-color: #8f0f68;
+    color: #ffffff;
+}
+
+
+/**TARJETAS NIV EDU**/
+
+.card {
+    border: 0!important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+}
+
+.tarjeta-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.card-title {
+    min-height: 3.1rem;
+    text-align: center;
+    padding-top: 0;
+}
+
+.card-text {
+    min-height: 11rem;
+    text-align: justify;
+    font-size: .95em;
+}
+
+
+/**ENLACES VIRTUALES**/
+
+.contenedor-enlaces {
+    border-top: 1px solid rgb(150, 193, 224);
+    border-bottom: 1px solid rgb(150, 193, 224);
+    background-color: #f3f3f3;
+}
+
+.btn-seve {
+    border-radius: 10px;
+    background-color: #145C91;
+}
+
+.btn-seve a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn-seve:hover {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+.btn-gmail {
+    border-radius: 10px;
+    background-color: #DB4A39;
+}
+
+.btn-gmail a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn-gmail:hover {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+.btn-manual {
+    border-radius: 10px;
+    background-color: #FFBF00;
+}
+
+.btn-manual a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn-manual:hover {
+    transform: scale(1.1);
+    transition: all .5s ease;
+}
+
+
+/**MAPA DEL SITIO**/
+
+.responsive-iframe {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/**FOOTER**/
+
+.tittle-footer {
+    color: #ffffff;
+}
+
+.tittle-footer span {
+    color: #000000;
+}
+
+.informacion-footer p {
+    font-size: .95rem;
+}
+
+.links-footer a {
+    color: #000000!important;
+}
+
+.links-footer a:hover {
+    color: #ffffff!important;
+}
+
+.contacto-footer ul {
+    list-style: none;
+}
+
+.contacto-footer ul span {
+    font-weight: bold;
+}
+
+.contacto-footer ul li {
+    margin-top: 7px;
+}
+
+p.copy {
+    background-color: #0d6c7a;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+
+/**OTRAS PÁGINAS**/
+
+
+/**CONTACTO**/
+
+.contacto h3::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 2px;
+    background-color: #145C91;
+    margin: 10px auto;
+}
+
+.fondo-contacto {
+    background-color: rgba(242, 246, 248, 1);
+}
+
+
+/**TARJETAS SEVE**/
+
+.t-seve span {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.t-seve-p {
+    font-size: 0.8em;
+}
+
+.tarjeta-seve {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.tarjeta-seve img {
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease-out;
+}
+
+.tarjeta-seve .capa-1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 148, 91, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.tarjeta-seve:hover>.capa-1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tarjeta-seve:hover>.capa-1 h5 {
+    margin-top: 120px;
+    margin-bottom: 25px;
+}
+
+.tarjeta-seve:hover>img {
+    transform: scale(1.3);
+}
+
+.tarjeta-seve .capa-1 h5 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 150px;
+    transition: all 500ms ease-out;
+    margin-top: 50px;
+}
+
+.tarjeta-seve .capa-1 p {
+    color: #ffffff;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+}
+
+.tarjeta-seve .capa-2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 106, 148, 0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.tarjeta-seve:hover>.capa-2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tarjeta-seve:hover>.capa-2 h5 {
+    margin-top: 120px;
+    margin-bottom: 25px;
+}
+
+.tarjeta-seve .capa-2 h5 {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 150px;
+    transition: all 500ms ease-out;
+    margin-top: 50px;
+}
+
+.tarjeta-seve .capa-2 p {
+    color: #ffffff;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+}
+
+.inferior-tarjeta {
+    width: 100%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.inferior-tarjeta img {
+    width: 100%;
+}
+
+
+/**CRONOGRAMA**/
+
+.c-crono {
+    background-color: rgb(209, 221, 228);
+    border-radius: 10px;
+}
+
+.card-act {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    border-radius: 6px;
+}
+
+.card-act img {
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease-out;
+}
+
+.card-act img:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    box-shadow: 1px 0px 10px rgb(2, 34, 102);
+}
+
+.tittle-crono {
+    background-color: rgba(0, 106, 148, 0.7);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    color: #ffffff;
+}
+
+
+/**PORTADA MISION Y VISION**/
+
+.portada-institucional {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.lower-banner {
+    width: 100%;
+}
+
+.lower-banner img {
+    width: 100%;
+}
+
+.s-brand {
+    width: 100%;
+}
+
+.s-brand img {
+    width: 250px;
+    max-width: 40%;
+}
+
+.s-flag {
+    width: 100%;
+}
+
+.s-flag img {
+    max-width: 70%;
+}
